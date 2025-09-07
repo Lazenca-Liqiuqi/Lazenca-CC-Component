@@ -1,0 +1,58 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gemini)",
+      "Read"
+    ],
+    "deny": []
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:\\Users\\pc\\.claude\\hooks\\conversation_start_voice.py\""
+          }
+        ]
+      },
+      {
+        "matcher": "clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:\\Users\\pc\\.claude\\hooks\\conversation_start_voice.py\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:\\Users\\pc\\.claude\\hooks\\task_complete_voice.py\""
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:\\Users\\pc\\.claude\\hooks\\notification.py\""
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "%USERPROFILE%\\.claude\\ccline\\ccline.exe",
+    "padding": 0
+  },
+  "outputStyle": "Explanatory"
+}

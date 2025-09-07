@@ -1,0 +1,14 @@
+
+=== 2025-08-19 20:26:30.377818 ===
+输入数据: {"session_id":"d27722a7-cddf-438e-ac00-1cee30ffd06d","transcript_path":"C:\\Users\\pc\\.claude\\projects\\C--Users-pc\\d27722a7-cddf-438e-ac00-1cee30ffd06d.jsonl","cwd":"C:\\Users\\pc","hook_event_name":"SessionStart","source":"startup"}
+Hook数据: {'session_id': 'd27722a7-cddf-438e-ac00-1cee30ffd06d', 'transcript_path': 'C:\\Users\\pc\\.claude\\projects\\C--Users-pc\\d27722a7-cddf-438e-ac00-1cee30ffd06d.jsonl', 'cwd': 'C:\\Users\\pc', 'hook_event_name': 'SessionStart', 'source': 'startup'}
+事件类型: SessionStart
+对话开始事件触发，进行欢迎语音播报
+欢迎语音播报完成: 我是moss，你也可以叫我——小苔藓
+
+=== 2025-08-19 20:27:39.172893 ===
+输入数据: {"session_id":"708594c7-d004-4770-b20e-389090191f56","transcript_path":"C:\\Users\\pc\\.claude\\projects\\C--Users-pc--claude-hooks\\708594c7-d004-4770-b20e-389090191f56.jsonl","cwd":"C:\\Users\\pc\\.claude\\hooks","hook_event_name":"SessionStart","source":"startup"}
+Hook数据: {'session_id': '708594c7-d004-4770-b20e-389090191f56', 'transcript_path': 'C:\\Users\\pc\\.claude\\projects\\C--Users-pc--claude-hooks\\708594c7-d004-4770-b20e-389090191f56.jsonl', 'cwd': 'C:\\Users\\pc\\.claude\\hooks', 'hook_event_name': 'SessionStart', 'source': 'startup'}
+事件类型: SessionStart
+对话开始事件触发，进行欢迎语音播报
+欢迎语音播报完成: 我是moss，你也可以叫我——小苔藓
