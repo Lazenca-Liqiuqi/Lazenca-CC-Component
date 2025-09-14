@@ -6,6 +6,7 @@
     ],
     "deny": []
   },
+  "enableAllProjectMcpServers": true,
   "hooks": {
     "SessionStart": [
       {
@@ -50,7 +51,7 @@
     ]
   },
   "statusLine": {
-    "type": "command",
+    "type": "command", 
     "command": "%USERPROFILE%\\.claude\\ccline\\ccline.exe",
     "padding": 0
   },
